@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnitConverter</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div id="container" class="container">
+        <div id="topcontainer" class="topcontainer">
+          <p class="title">Metric/Imparial Unit conversion</p>
+          <input class="value" id="value">
+          <button class="btn" id="btn">Convert</button>
+        </div>
+        <div id="bottomContainer" class="bottomContainer ">
+          <div class="innerBottomContainer" class="container1">
+            <h3 class="convertedData" id="length">Length (Meter/Feet)</h3>
+            <p class="displayLength" id="converLength"></p>
+          </div>
+           <div class="innerBottomContainer" class="container2">
+            <h3 class="convertedData" id="volume">Volume (Liters/Gallons)</h3>
+            <p class="displayVolume" id="convertVolume"></p>
+          </div>
+          <div class="innerBottomContainer" class="container3">
+            <h3 class="convertedData" id="mass">Mass (Kilograms/Pounds)</h3>
+            <p class="displayMass" id="convertMass"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
